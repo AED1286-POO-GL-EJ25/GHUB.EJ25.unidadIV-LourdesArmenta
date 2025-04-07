@@ -1,5 +1,5 @@
 package miPrincipal;
-
+import fecha.*;
 
 public class Principal {
     
@@ -26,6 +26,19 @@ public class Principal {
         for(int i=0; i<animales.length;){
             animales[i++].hacerSonido();
         }
+
+        //probamos con objetos tipo Fecha
+        Fecha fec = new FechaDetallada("25/2/2025"); //aplicamos polimorfmismo
+
+        Object obj = new FechaDetallada(3,12,2025);
+
+        Fecha fec1 = new Fecha("7/4/2025");
+
+        //imprimimos las tres fechas
+        System.out.println("fec = "+fec);
+        System.out.println("obj = "+obj);
+        System.out.println("fec1 = "+fec1);
+
 
 
 

@@ -4,3 +4,5 @@
 ./miTest/AppTest.java
 ./miTest/Pajaro.java
 ./miTest/Animal.java
+./fecha/FechaDetallada.java
+./fecha/Fecha.java
