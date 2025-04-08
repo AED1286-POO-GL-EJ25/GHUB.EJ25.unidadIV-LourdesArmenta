@@ -39,6 +39,16 @@ public class Principal {
         System.out.println("obj = "+obj);
         System.out.println("fec1 = "+fec1);
 
+        Object arr[] = { new Fecha("2/10/1970"),
+                         new FechaDetallada("23/12/1948"),
+                         new String("Esto es una cadena"),
+                         new Integer(34)
+                        };
+        for(int i=0;i<4;i++){
+            System.out.println(arr[i]);
+        }
+
+
 
 
 
