@@ -42,11 +42,12 @@ public class Principal {
         Object arr[] = { new Fecha("2/10/1970"),
                          new FechaDetallada("23/12/1948"),
                          new String("Esto es una cadena"),
-                         new Integer(34)
+                         new Integer(34),
+                         new FechaDetallada(8,4,2025)
                         };
-        for(int i=0;i<4;i++){
-            System.out.println(arr[i]);
-        }
+        //como el metodo es estatico lo invocamos a traves de la clase 
+        MuestraConjunto.mostrar(arr);
+
 
 
 

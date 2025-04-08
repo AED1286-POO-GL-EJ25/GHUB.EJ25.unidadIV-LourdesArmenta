@@ -5,5 +5,9 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/Animal.java
 ./miTest/AppTest.java
+./abstractas/Gato.java
+./abstractas/Perro.java
+./abstractas/Animal.java
+./abstractas/TestAnimal.java
 ./fecha/FechaDetallada.java
 ./fecha/Fecha.java
