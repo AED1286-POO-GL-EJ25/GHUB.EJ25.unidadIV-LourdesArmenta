@@ -6,9 +6,10 @@ public class Rectangulo extends FiguraGeometrica {
     private double altura;
     //constructor
     public Rectangulo(double b, double h){
+        super("Rectangulo");
         this.base = b;
         this.altura = h;
-        
+
     }
 
     @Override

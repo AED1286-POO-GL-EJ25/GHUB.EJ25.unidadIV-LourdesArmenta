@@ -5,6 +5,7 @@ public class Circulo extends FiguraGeometrica {
     private double radio;
     //constructor
     public Circulo(double r){
+        super("Circulo");
         this.radio = r;
     }
 
