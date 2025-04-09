@@ -1,6 +1,11 @@
 package miPrincipal;
 import fecha.*;
 
+import abstractas.FiguraGeometrica;
+import abstractas.Circulo;
+import abstractas.Rectangulo;
+import abstractas.Triangulo;
+
 public class Principal {
     
 
@@ -47,6 +52,21 @@ public class Principal {
                         };
         //como el metodo es estatico lo invocamos a traves de la clase 
         MuestraConjunto.mostrar(arr);
+
+        //probas clases abstractas
+
+        //FiguraGeometrica fg = new FiguraGeometrica() ; //No es posible porque es abstracta
+        Circulo c = new Circulo(2.5);
+        Rectangulo r = new Rectangulo(10,3);
+        Triangulo t =  new Triangulo(3.33,6);
+
+        System.out.println(c.toString());
+        System.out.println(r.toString());
+        System.out.println(t.toString());
+
+
+         
+
 
 
 

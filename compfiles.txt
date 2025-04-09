@@ -5,9 +5,13 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/Animal.java
 ./miTest/AppTest.java
+./abstractas/Circulo.java
 ./abstractas/Gato.java
 ./abstractas/Perro.java
+./abstractas/Rectangulo.java
 ./abstractas/Animal.java
+./abstractas/Triangulo.java
 ./abstractas/TestAnimal.java
+./abstractas/FiguraGeometrica.java
 ./fecha/FechaDetallada.java
 ./fecha/Fecha.java
