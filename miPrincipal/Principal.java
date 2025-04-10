@@ -64,21 +64,24 @@ public class Principal {
         System.out.println(r.toString());
         System.out.println(t.toString());
 
+        //probar el polimorfismo
+        c = new Circulo(23);
+        r = new  Rectangulo(12,4);
+        t = new Triangulo(2,5);
 
-         
+        System.out.println();
+        System.out.println(c);
+        System.err.println(r);
+        System.out.println(t);
 
+        FiguraGeometrica arreglo2[] ={ c, // 1661.9064
+                                       r, //48
+                                       t //5
 
+                                     }; //1757.85
 
+        double prom = FiguraGeometrica.areaPromedio(arreglo2);
+        System.out.println("Promedio = "+prom);
 
-
-
-
-
-
-
-
-
-
-        
     }
 }

@@ -15,6 +15,16 @@ package abstractas;
 
     //metodo abstracto
     public abstract double area();
+    //metodo concreto
+    public static double areaPromedio( FiguraGeometrica arr[]){
+        double suma=0;
+        for(int i=0;i<arr.length;i++){
+            suma = suma + arr[i].area();
+        }
+        return suma/arr.length;
+
+    }
+
 
     //metodo concreto
     public String toString(){
