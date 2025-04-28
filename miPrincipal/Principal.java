@@ -6,6 +6,9 @@ import abstractas.Circulo;
 import abstractas.Rectangulo;
 import abstractas.Triangulo;
 
+import interfaces.Dog;
+import interfaces.Cat;
+
 public class Principal {
     
 
@@ -82,6 +85,27 @@ public class Principal {
 
         double prom = FiguraGeometrica.areaPromedio(arreglo2);
         System.out.println("Promedio = "+prom);
+
+        //probar interfases
+
+        interfaces.Animal miAnimal = new Dog();
+
+        miAnimal.makeSound();
+        miAnimal.move();
+
+        miAnimal = new Cat();
+
+        miAnimal.makeSound();
+        miAnimal.move();
+        
+
+
+
+      
+
+
+
+
 
     }
 }
