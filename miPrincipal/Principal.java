@@ -2,12 +2,20 @@ package miPrincipal;
 import fecha.*;
 
 import abstractas.FiguraGeometrica;
+
+import org.junit.platform.console.shadow.picocli.CommandLine.Help.ColorScheme;
+
 import abstractas.Circulo;
 import abstractas.Rectangulo;
 import abstractas.Triangulo;
 
 import interfaces.Dog;
 import interfaces.Cat;
+
+import interfaces.Vehiculo;
+import interfaces.Coche;
+import interfaces.Camion;
+import interfaces.Motocicleta;
 
 public class Principal {
     
@@ -97,6 +105,24 @@ public class Principal {
 
         miAnimal.makeSound();
         miAnimal.move();
+
+        Vehiculo coche = new Coche("MatriculaAWE");
+        Vehiculo camion = new Camion("MatriculaCamion");
+        Vehiculo motocicleta = new Motocicleta("MatriculaMotoDFF");
+
+        coche.encenderMotor();
+        coche.apagarMotor();
+        coche.conducir();
+
+        camion.encenderMotor();
+        camion.apagarMotor();
+        camion.conducir();
+
+        motocicleta.apagarMotor();
+        motocicleta.encenderMotor();
+        motocicleta.conducir();
+
+
         
 
 

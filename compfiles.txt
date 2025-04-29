@@ -5,11 +5,14 @@
 ./miPrincipal/Principal.java
 ./miPrincipal/Animal.java
 ./interfaces/Dog.java
+./interfaces/Motocicleta.java
 ./interfaces/VehiculoAbstracto.java
+./interfaces/Coche.java
 ./interfaces/Pet.java
 ./interfaces/Animal.java
 ./interfaces/Cat.java
 ./interfaces/Vehiculo.java
+./interfaces/Camion.java
 ./miTest/AppTest.java
 ./abstractas/Circulo.java
 ./abstractas/Gato.java
