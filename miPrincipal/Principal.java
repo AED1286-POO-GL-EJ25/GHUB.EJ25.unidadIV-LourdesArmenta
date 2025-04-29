@@ -17,6 +17,8 @@ import interfaces.Coche;
 import interfaces.Camion;
 import interfaces.Motocicleta;
 
+import genericos.Caja;
+
 public class Principal {
     
 
@@ -121,6 +123,24 @@ public class Principal {
         motocicleta.apagarMotor();
         motocicleta.encenderMotor();
         motocicleta.conducir();
+
+        Caja<String> miCajaString = new Caja<>();
+        miCajaString.setContenido("Luis Lopez");
+
+        Caja<Integer> miCajaEntera = new Caja<>();
+        miCajaEntera.setContenido(100);
+
+        Caja<Double> miCajaDoble = new Caja<>();
+        miCajaDoble.setContenido(3.1416);
+
+        System.out.println(miCajaString);
+        System.out.println(miCajaEntera);
+        System.out.println(miCajaDoble);
+
+        Caja<Animal> miCajaAnimal = new Caja<>();
+        miCajaAnimal.setContenido(new Animal());
+        System.out.println(miCajaAnimal);
+
 
 
         
