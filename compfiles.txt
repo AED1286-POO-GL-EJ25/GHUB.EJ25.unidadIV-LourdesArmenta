@@ -25,3 +25,4 @@
 ./fecha/FechaDetallada.java
 ./fecha/Fecha.java
 ./genericos/Caja.java
+./genericos/Utilidades.java
