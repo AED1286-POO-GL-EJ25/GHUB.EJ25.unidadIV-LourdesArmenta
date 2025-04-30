@@ -1,6 +1,6 @@
 package desacoplar;
 
-public class Alumno  {
+public class Alumno  implements Comparable<Alumno>{
     //Atributo
     private String nombre;
     private int edad;
@@ -48,6 +48,18 @@ public class Alumno  {
     public String toString() {
         return nombre + ", " + edad + ", " + notaPromedio ;
     }
+
+    @Override
+    public int compareTo(Alumno otro){
+        if (this.edad < otro.getEdad())
+           return -1;
+        else if (this.edad > otro.getEdad())
+            return 1;
+        else
+            return 0;
+
+    }
+
 
 
     
