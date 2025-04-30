@@ -1,4 +1,9 @@
+./desacoplar/PalomaMensajera.java
+./desacoplar/MiAplicacionDeMensajes.java
+./desacoplar/Comunicador.java
 ./desacoplar/Util.java
+./desacoplar/TelefonoCelular.java
+./desacoplar/Telegrafo.java
 ./desacoplar/Alumno.java
 ./desacoplar/Ave.java
 ./desacoplar/Reliquia.java
