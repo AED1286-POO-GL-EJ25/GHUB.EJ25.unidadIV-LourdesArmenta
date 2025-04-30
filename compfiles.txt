@@ -1,3 +1,9 @@
+./desacoplar/Util.java
+./desacoplar/Alumno.java
+./desacoplar/Ave.java
+./desacoplar/Reliquia.java
+./desacoplar/Paloma.java
+./desacoplar/Telefono.java
 ./miPrincipal/Gato.java
 ./miPrincipal/Perro.java
 ./miPrincipal/MuestraConjunto.java
